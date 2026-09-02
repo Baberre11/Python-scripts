@@ -30,3 +30,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     send_email(args.recipient_email, args.subject, args.body)
+    
+    
